@@ -1,0 +1,26 @@
+# robots.txt for bCom - Cybersecurity, Networking & AI Solutions company
+
+# Allow all search engines to crawl the website
+User-agent: *
+Allow: /
+
+# Disallow admin dashboard from search engines
+Disallow: /admin.html
+Disallow: /admin.js
+Disallow: /admin.css
+
+# Allow important files
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /logo.png
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.webp
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://www.bcom-africa.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent overloading server)
+Crawl-delay: 1
+
